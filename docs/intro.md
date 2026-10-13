@@ -2,46 +2,22 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Documentación de GameShelf
 
-Let's discover **Docusaurus in less than 5 minutes**.
+GameShelf es una aplicación ficticia para gestionar una colección personal de videojuegos.
 
-## Getting Started
+La aplicación permite registrar videojuegos, consultar la colección disponible, modificar los datos de un videojuego y eliminar registros que ya no sean necesarios.
 
-Get started by **creating a new site**.
+## Objetivo del proyecto
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+El objetivo es facilitar la organización de una biblioteca de videojuegos. Cada juego almacenará información básica, como su título, plataforma, género, año de lanzamiento, estado y valoración personal.
 
-### What you'll need
+## Secciones de la documentación
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Esta documentación contiene las siguientes fases del proyecto:
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- Análisis de requisitos.
+- Diseño de clases.
+- Estructura de la implementación.
+- Pruebas de caja blanca.
+- Despliegue de la documentación en GitHub Pages.
